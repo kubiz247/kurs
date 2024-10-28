@@ -1,0 +1,1 @@
+C:\Users\4m\Desktop\Projekty\kantor\kantor\kantor.csproj;x64
