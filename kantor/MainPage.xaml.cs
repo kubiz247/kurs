@@ -36,7 +36,7 @@ namespace kantor
         private void OnCounterClicked(object sender, EventArgs e)
         {
             string date = dpData.Date.ToString("yyyy-MM-dd");
-            string url = "https://api.nbp.pl/api/exchangerates/rates/c/" + xEntry.Text + "/" + date + "/?format=json";
+            string url = "https://api.nbp.pl/api/exchangerates/rates/c/" + picker.SelectedItem + "/" + date + "/?format=json";
             string json = "";
 
 

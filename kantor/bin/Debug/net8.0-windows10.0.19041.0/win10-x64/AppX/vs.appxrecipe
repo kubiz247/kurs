@@ -30,7 +30,7 @@
     <AppXManifest Include="C:\Users\4m\Desktop\Projekty\kantor\kantor\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-28T10:16:08.096</Modified>
+      <Modified>2024-10-28T11:52:02.219</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\4m\Desktop\Projekty\kantor\kantor\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\kantor.dll">
       <PackagePath>kantor.dll</PackagePath>
-      <Modified>2024-10-28T10:16:07.819</Modified>
+      <Modified>2024-10-28T11:52:01.156</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\4m\Desktop\Projekty\kantor\kantor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>kantor.exe</PackagePath>
-      <Modified>2024-10-28T10:16:07.823</Modified>
+      <Modified>2024-10-28T11:52:01.208</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\4m\Desktop\Projekty\kantor\kantor\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
