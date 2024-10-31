@@ -199,6 +199,9 @@
     <AppxPackagedFile Include="C:\Users\4m\Desktop\Projekty\kantor\kantor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\4m\Desktop\Projekty\kantor\kantor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dolar.scale-100.jpg">
+      <PackagePath>dolar.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\4m\Desktop\Projekty\kantor\kantor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
@@ -213,6 +216,12 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\4m\Desktop\Projekty\kantor\kantor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\4m\Desktop\Projekty\kantor\kantor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\euro.scale-100.jpg">
+      <PackagePath>euro.scale-100.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\4m\Desktop\Projekty\kantor\kantor\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\funt.scale-100.jpg">
+      <PackagePath>funt.scale-100.jpg</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\4m\Desktop\Projekty\kantor\kantor\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\kantor.deps.json">
       <PackagePath>kantor.deps.json</PackagePath>

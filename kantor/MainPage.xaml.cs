@@ -10,6 +10,7 @@ namespace kantor
 
         public class Currency
         {
+
             public string? table { get; set; }
             public string? currency { get; set; }
             public string? code { get; set; }
@@ -32,27 +33,38 @@ namespace kantor
         {
             InitializeComponent();
         }
-
+        /*
+         nazwa funkcji: OnCounterClicked
+         parametry wejściowe: sender, EventArgs
+         wartośc zwracana: brak
+         informacje: Pobiera wartosci walut z api, datę, pobiera tą wartość i zapisuje w stringu, parsuje tekst przez wartości JSONa do specyficznego dla niego parametru
+         autor: Jakub
+        */
         private void OnCounterClicked(object sender, EventArgs e)
         {
             string date = dpData.Date.ToString("yyyy-MM-dd");
-            string url = "https://api.nbp.pl/api/exchangerates/rates/c/" + picker.SelectedItem + "/" + date + "/?format=json";
-            string json = "";
+
+            string usd = "https://api.nbp.pl/api/exchangerates/rates/c/usd/" + date + "/?format=json";
+            string gbp = "https://api.nbp.pl/api/exchangerates/rates/c/gbp/" + date + "/?format=json";
+            string eur = "https://api.nbp.pl/api/exchangerates/rates/c/eur/" + date + "/?format=json";
+            string usdj;
+            string gbpj;
+            string eurj;
+
 
 
             using (var webClient = new WebClient())
             {
-                json = webClient.DownloadString(url);
+                usdj = webClient.DownloadString(usd);
+                gbpj = webClient.DownloadString(gbp);
+                eurj = webClient.DownloadString(eur);
             }
 
-            Currency c = JsonSerializer.Deserialize<Currency>(json);
-            string s = $"nazwa waluty: {c.currency}\n";
-            s += $"kod waluty: {c.code}\n";
-            s += $"Data: {c.rates[0].effectiveDate}\n";
-            s += $"Cena skupu: {c.rates[0].bid}\n";
-            s += $"Cena sprzedarzy: {c.rates[0].ask}\n";
+            Currency usdc = JsonSerializer.Deserialize<Currency>(usdj);
+            Currency gbpc = JsonSerializer.Deserialize<Currency>(gbpj);
+            Currency eurc = JsonSerializer.Deserialize<Currency>(eurj);
 
-            cLabel.Text = s;
+            
 
 
 
