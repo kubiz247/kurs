@@ -7,34 +7,19 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-            <Button
-                x:Name="CounterBtn"
-                Text="Button" 
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Fill" />
-            <Label x:Name="cLabel" Text=""/>
             <HorizontalStackLayout>
-                <DatePicker x:Name="dpData" MinimumDate="2003-01-01">
-                    
-                </DatePicker>
-                <DatePicker x:Name="dpData2" MinimumDate="2003-01-01">
-
-                </DatePicker>
+                <Button x:Name="CounterBtn" Text="Button" SemanticProperties.Hint="Counts the number of times you click" Clicked="OnCounterClicked" HorizontalOptions="Fill" />
+                <Label>Waluta 1: </Label>
+                <Entry x:Name="fe"></Entry>
+                <Label>Waluta 2: </Label>
+                <Entry x:Name="se"></Entry>
+                <Label>kwota do przelcizania: </Label>
+                <Entry Keyboard="Numeric" x:Name="pr"></Entry>
+                <Label x:Name="wy" Text="Wynik"></Label>
             </HorizontalStackLayout>
-
-            <HorizontalStackLayout>
-                <Image WidthRequest="100" HeightRequest="100" Source="dolar.jpg">
-                    
-                </Image>
-                <Image WidthRequest="100" HeightRequest="100" Source="funt.jpg">
-
-                </Image>
-                <Image WidthRequest="100" HeightRequest="100" Source="euro.jpg">
-
-                </Image>
-            </HorizontalStackLayout>
+            
         </VerticalStackLayout>
+
     </ScrollView>
 
 </ContentPage>

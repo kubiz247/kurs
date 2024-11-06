@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a9rOiLt07iY=",
+  "dgSpecHash": "sqKcr3VHHoU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\4m\\Desktop\\Projekty\\kantor\\kantor\\kantor.csproj",
+  "projectFilePath": "C:\\Users\\4m\\source\\repos\\kantor\\kantor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\4m\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\4m\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

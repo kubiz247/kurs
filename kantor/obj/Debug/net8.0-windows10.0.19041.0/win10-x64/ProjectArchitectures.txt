@@ -1,1 +1,1 @@
-C:\Users\4m\Desktop\Projekty\kantor\kantor\kantor.csproj;x64
+C:\Users\4m\source\repos\kantor\kantor.csproj;x64

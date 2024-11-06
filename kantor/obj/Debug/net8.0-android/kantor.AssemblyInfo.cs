@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kantor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+581417f8d42433565c31baf8aab8ae332b53c595")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+5266606ee49ed961568e8f64039d5fe194cd8891")]
 [assembly: System.Reflection.AssemblyProductAttribute("kantor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kantor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
